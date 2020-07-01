@@ -5,3 +5,8 @@
 *~
 build
 
+/gsi.dir/Debug
+/create_linux.sh
+/CMakeLists.txt
+*.user
+/.vs/gsi/v15

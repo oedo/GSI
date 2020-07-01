@@ -10,7 +10,7 @@ namespace gsi {
  * basic dense vector class
  */
 
-typedef unsigned long size_t;
+//typedef unsigned long size_t;
 
 class Vector
 {

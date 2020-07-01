@@ -2,7 +2,7 @@
 
 using namespace rmssolver;
 
-Architecture * Architecture::m_pSingleton = NULL;
+//Architecture * Architecture::m_pSingleton = NULL;
 
 Architecture * Architecture::Get() 
 {

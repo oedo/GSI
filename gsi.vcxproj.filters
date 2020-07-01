@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Base\DenseMatrix.cpp" />
+    <ClCompile Include="Base\SparseMatrix.cpp" />
+    <ClCompile Include="Base\Vector.cpp" />
+    <ClCompile Include="DenseMatrixSolver\Architecture.cpp" />
+    <ClCompile Include="DenseMatrixSolver\DenseLinearSystem.cpp" />
+    <ClCompile Include="DenseMatrixSolver\LAPACKWrapper.cpp" />
+    <ClCompile Include="DenseMatrixSolver\RMSSolver.cpp" />
+    <ClCompile Include="DenseMatrixSolver\Solver_General.cpp" />
+    <ClCompile Include="SolverTests\DenseMatrixSolverTests.cpp" />
+    <ClCompile Include="SolverTests\SolverTests.cpp" />
+    <ClCompile Include="SolverTests\SparseMatrixSolverTests.cpp" />
+    <ClCompile Include="SolverTests\SparseMatrixTests.cpp" />
+    <ClCompile Include="SparseMatrixSolver\Solver_TAUCS.cpp" />
+    <ClCompile Include="SparseMatrixSolver\Solver_UMFPACK.cpp" />
+    <ClCompile Include="SparseMatrixSolver\SparseLinearSystem.cpp" />
+    <ClCompile Include="SparseMatrixSolver\SparseSymmetricMatrixSolver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E139FE04-91A5-3025-8AF3-3665E9DF4295}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
