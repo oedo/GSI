@@ -41,7 +41,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>Base;packages\include;SparseMatrixSolver;packages\taucs_full\src;packages\taucs_full\build\linux64;packages\UMFPACK\Include;packages\UFconfig;packages\AMD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Base;SparseMatrixSolver;packages\include;packages\taucs_full\src;packages\taucs_full\build\linux64;packages\UMFPACK\Include;packages\UFconfig;packages\AMD\Include;external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
@@ -64,7 +64,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>Base;packages\include;SparseMatrixSolver;packages\taucs_full\src;packages\taucs_full\build\linux64;packages\UMFPACK\Include;packages\UFconfig;packages\AMD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Base;SparseMatrixSolver;packages\include;packages\taucs_full\src;packages\taucs_full\build\linux64;packages\UMFPACK\Include;packages\UFconfig;packages\AMD\Include;external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
